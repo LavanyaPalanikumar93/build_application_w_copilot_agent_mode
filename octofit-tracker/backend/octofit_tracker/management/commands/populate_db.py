@@ -1,4 +1,4 @@
-from django.core.management.base import BaseCommand
+from django.core.management.base import BaseCommand 
 from octofit.models import User, Team, Activity, Leaderboard, Workout
 
 class Command(BaseCommand):
